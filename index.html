@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Favorite Catering Services: weddings, corporate events, party packs and home delivery in Peterborough, UK.">
+  <title>Favorite Catering Services</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home"><span class="logo" aria-hidden="true">F</span> Favorite<br>Catering Services</a>
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1><span class="dark">Favorite</span><br><span class="gradient">Catering Services</span></h1>
+        <p class="tagline">Flavour Freshness Celebration</p>
+        <p class="keywords">Weddings • Corporate • Parties • Home Delivery</p>
+        <a class="btn" href="#about">Explore Our Menu →</a>
+        <ul class="tags">
+          <li><button type="button" class="tag" data-info="Full buffet service, decor-ready serving stations and trained waiters for weddings and big celebrations.">★ Weddings &amp; Events</button></li>
+          <li><button type="button" class="tag" data-info="Daily lunch boxes, boardroom buffets and conference catering delivered on time.">♥ Corporate &amp; Office</button></li>
+          <li><button type="button" class="tag" data-info="Small chops, party jollof packs and grills for birthdays and house parties.">◍ Party Packs &amp; Small Chops</button></li>
+        </ul>
+        <p id="tag-info" class="info-box" aria-live="polite">Tap a service above to see what is included.</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration of a covered serving dish with cutlery">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1f3d"/><stop offset="1" stop-color="#1f8a57"/></linearGradient></defs>
+          <rect width="400" height="400" fill="url(#g)"/>
+          <circle cx="90" cy="90" r="70" fill="#fff" opacity=".12"/>
+          <circle cx="330" cy="320" r="90" fill="#fff" opacity=".12"/>
+          <ellipse cx="200" cy="320" rx="150" ry="18" fill="#000" opacity=".2"/>
+          <path d="M60 300h280v14a10 10 0 0 1-10 10H70a10 10 0 0 1-10-10z" fill="#e8e8ef"/>
+          <path d="M80 300a120 110 0 0 1 240 0z" fill="#fff"/>
+          <circle cx="200" cy="178" r="14" fill="#e8e8ef"/>
+          <path d="M110 270a100 80 0 0 1 60-70" stroke="#d0d0dc" stroke-width="8" fill="none" stroke-linecap="round"/>
+          <g stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none" opacity=".9"><path d="M170 130q-12-16 0-30t0-30"/><path d="M200 120q-12-16 0-30t0-30"/><path d="M230 130q-12-16 0-30t0-30"/></g>
+        </svg>
+      </div>
+    </section>
+
+    <section id="about" class="panel">
+      <h2>About Us</h2>
+      <p>Favorite Catering Services prepares fresh, home-style Nigerian and continental meals for every occasion. From a 20-person birthday to a 500-guest wedding, we cook, pack and serve so you can enjoy your event.</p>
+      <h3>Quick Estimate</h3>
+      <form id="estimate-form" novalidate>
+        <label for="guests">Number of guests</label>
+        <input id="guests" type="number" min="10" max="1000" inputmode="numeric" placeholder="e.g. 50">
+        <label for="package">Package</label>
+        <select id="package">
+          <option value="">Choose a package</option>
+          <option value="6500">Standard Buffet (₦6,500 per guest)</option>
+          <option value="3500">Small Chops (₦3,500 per guest)</option>
+          <option value="12000">Premium Wedding (₦12,000 per guest)</option>
+        </select>
+        <button class="btn" type="submit">Get Estimate</button>
+        <p id="estimate-result" class="info-box" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section id="contact" class="panel">
+      <h2>We’d Love to Hear From You</h2>
+      <form id="contact-form" novalidate>
+        <label for="name">Your name</label>
+        <input id="name" type="text" autocomplete="name">
+        <label for="email">Email</label>
+        <input id="email" type="email" autocomplete="email">
+        <label for="message">Message</label>
+        <textarea id="message" rows="4"></textarea>
+        <button class="btn" type="submit">Send Enquiry</button>
+        <p id="contact-feedback" class="info-box" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <h2>We’d Love to Hear From You</h2>
+    <ul>
+      <li>✉ <a href="mailto:preciousadewole1996@gmail.com">preciousadewole1996@gmail.com</a></li>
+      <li>☎ <a href="tel:+441733213213">+44 1733 213213</a></li>
+      <li>⚲ University Centre Peterborough, Park Crescent, Peterborough, PE1 4DZ</li>
+    </ul>
+    <p>© 2026 Favorite Catering Services • Fresh Food, Served with Love</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
